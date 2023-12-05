@@ -1,0 +1,54 @@
+/* Write your code here. */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: "Roboto";
+  text-align: center;
+}
+.card-items {
+  width: 300px;
+}
+.info {
+  background-color: #0b69ff;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.success {
+  background-color: #2dca73;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.warning {
+  background-color: #ffb800;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.error {
+  background-color: #ff0b37;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.para {
+  color: #ffffff;
+  font-family: "Roboto";
+}
